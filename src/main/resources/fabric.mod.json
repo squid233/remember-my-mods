@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "remember-my-mods",
+  "version": "${version}",
+  "name": "Remember my mods",
+  "description": "Remember your mods when creating or loading a world",
+  "authors": [
+    "squid233"
+  ],
+  "contact": {
+    "sources": "https://github.com/squid233/remember-my-mods"
+  },
+  "license": "MIT",
+  "icon": "assets/remember-my-mods/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.squid233.remembermymods.RememberMyMods"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "remember-my-mods.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

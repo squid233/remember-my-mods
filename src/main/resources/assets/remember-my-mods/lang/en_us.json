@@ -1,0 +1,5 @@
+{
+  "screen.remember-my-mods.modIncompatible.title": "Incompatible mods detected! Are you sure want to proceed?",
+  "screen.remember-my-mods.modIncompatible.risk": "Some data of this save might be lost, such as blocks and items!",
+  "screen.remember-my-mods.modIncompatible.removed": "Removed mods:"
+}

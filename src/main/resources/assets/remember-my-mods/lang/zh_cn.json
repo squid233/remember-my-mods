@@ -1,0 +1,5 @@
+{
+  "screen.remember-my-mods.modIncompatible.title": "检测到模组不兼容! 确定要继续吗?",
+  "screen.remember-my-mods.modIncompatible.risk": "此存档的部分数据可能会丢失, 例如方块和物品!",
+  "screen.remember-my-mods.modIncompatible.removed": "移除的模组:"
+}
