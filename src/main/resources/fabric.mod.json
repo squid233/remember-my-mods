@@ -3,7 +3,7 @@
   "id": "remember-my-mods",
   "version": "${version}",
   "name": "Remember My Mods",
-  "description": "Remember your mods when creating or loading a world",
+  "description": "Remember your mods for each save and warns if you removed any mods.",
   "authors": [
     "squid233"
   ],
