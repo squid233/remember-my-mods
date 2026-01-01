@@ -75,7 +75,7 @@ public class ModIncompatibleScreen extends Screen {
     private Layout addFooterButtons() {
         LinearLayout linearLayout = LinearLayout.horizontal().spacing(8);
         linearLayout.addChild(Button.builder(CommonComponents.GUI_YES, button -> callback.accept(true)).build());
-        linearLayout.addChild(Button.builder(CommonComponents.GUI_PROCEED, button -> callback.accept(false)).build());
+        linearLayout.addChild(Button.builder(CommonComponents.GUI_NO, button -> callback.accept(false)).build());
         return linearLayout;
     }
 
