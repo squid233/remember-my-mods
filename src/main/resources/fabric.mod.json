@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "remember-my-mods",
   "version": "${version}",
-  "name": "Remember my mods",
+  "name": "Remember My Mods",
   "description": "Remember your mods when creating or loading a world",
   "authors": [
     "squid233"
